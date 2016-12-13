@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About-rsses on Birdr</title>
+    <link>http://blog.birdr.co.uk/about/index.xml</link>
+    <description>Recent content in About-rsses on Birdr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 13 Dec 2016 17:00:56 +0000</lastBuildDate>
+    <atom:link href="http://blog.birdr.co.uk/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>index</title>
+      <link>http://blog.birdr.co.uk/about/</link>
+      <pubDate>Tue, 13 Dec 2016 17:00:56 +0000</pubDate>
+      
+      <guid>http://blog.birdr.co.uk/about/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

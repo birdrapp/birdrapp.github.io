@@ -10,11 +10,11 @@
     <atom:link href="http://blog.birdr.co.uk/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Welcome</title>
-      <link>http://blog.birdr.co.uk/post/welcome/</link>
+      <title>Welcome to birdr</title>
+      <link>http://blog.birdr.co.uk/post/welcome-to-birdr/</link>
       <pubDate>Tue, 13 Dec 2016 10:28:43 +0000</pubDate>
       
-      <guid>http://blog.birdr.co.uk/post/welcome/</guid>
+      <guid>http://blog.birdr.co.uk/post/welcome-to-birdr/</guid>
       <description>
 
 &lt;p&gt;I&amp;rsquo;ve been curious about bird watching my whole life. Both my parents are keen twitchers and I was often taken on thinly-veiled &amp;lsquo;holidays&amp;rsquo; to cold &amp;amp; windy places all in the pursuit of finding some obscure little brown bird. As I&amp;rsquo;ve grown older I&amp;rsquo;ve found myself becoming fascinated with trying to build software to improve a bird watchers life, which I&amp;rsquo;ve come to refer to as &lt;em&gt;birdtech&lt;/em&gt;.&lt;/p&gt;

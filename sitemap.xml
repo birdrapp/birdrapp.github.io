@@ -3,11 +3,16 @@
   
   <url>
     <loc>http://blog.birdr.co.uk/</loc>
-    <lastmod>2016-12-13T10:28:43+00:00</lastmod>
+    <lastmod>2016-12-13T17:00:56+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.birdr.co.uk/post/welcome/</loc>
+    <loc>http://blog.birdr.co.uk/about/</loc>
+    <lastmod>2016-12-13T17:00:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.birdr.co.uk/post/welcome-to-birdr/</loc>
     <lastmod>2016-12-13T10:28:43+00:00</lastmod>
   </url>
   
