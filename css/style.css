@@ -86,6 +86,7 @@ h2 {
 .profile #logo {
   display: inline-block;
   width: 176px;
+  max-width: 176px;
   border-radius: 0;
   margin-bottom: 20px;
 }
