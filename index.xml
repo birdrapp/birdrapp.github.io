@@ -6,8 +6,102 @@
     <description>Recent content on Birdr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 13 Dec 2016 17:00:56 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Dec 2016 14:17:56 +0000</lastBuildDate>
     <atom:link href="http://blog.birdr.co.uk/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>What&#39;s the big idea?</title>
+      <link>http://blog.birdr.co.uk/post/whats-the-big-idea/</link>
+      <pubDate>Sat, 17 Dec 2016 14:17:56 +0000</pubDate>
+      
+      <guid>http://blog.birdr.co.uk/post/whats-the-big-idea/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;http://blog.birdr.co.uk/images/post/whats-the-big-idea.jpg&#34; alt=&#34;An owl deep in contemplation&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;What is it about Birdr that keeps me coming back? I guess I have this feeling that, if done right, Birdr could become as ubiquitous to birding as YouTube is to videos. It would serve as the place to go to keep all your lists &amp;amp; photos. The place to find out about rare birds in your area. The place to read about birding in remote locations and the place to share knowledge and offer encouragement to new birders. This is the vision I have and what keeps me coming back.&lt;/p&gt;
+
+&lt;p&gt;Below is a list of features that I hope to add to Birdr:&lt;/p&gt;
+
+&lt;h3 id=&#34;bird-records&#34;&gt;Bird Records&lt;/h3&gt;
+
+&lt;p&gt;Every birding application needs the ability to add records. The key to success here will be providing a simple interface. If recording birds is too much effort people won&amp;rsquo;t do it. Birdr should allow you to record as little or as much detail as you wish.&lt;/p&gt;
+
+&lt;h4 id=&#34;weather&#34;&gt;Weather&lt;/h4&gt;
+
+&lt;p&gt;One of the cool things I&amp;rsquo;ve added in the &lt;a href=&#34;http://nenbc.co.uk/&#34;&gt;NENBC&lt;/a&gt; application is an automatic weather report. If you add the location and date/time of your record we can fetch the weather using a neat service called &lt;a href=&#34;https://darksky.net/dev/&#34;&gt;DarkSky&lt;/a&gt;. Weather actually plays an important part in bird watching. On windy days you will often find rarities along the coast that have been blown over the seas.&lt;/p&gt;
+
+&lt;h3 id=&#34;lists&#34;&gt;Lists&lt;/h3&gt;
+
+&lt;p&gt;Birding is all about keeping lists. One of the must-have lists for birders is the life list. For a UK birder, this is the list of birds that you have seen within the UK shores since you started birding. Serious birders will have see upwards of 400 species. Once you get more into birding you might start finding you keep year lists, garden lists, lists specific to a particular county etc. Most applications, and &lt;a href=&#34;http://birdlists.me/&#34;&gt;BirdLists&lt;/a&gt; is no exception, place the onus of maintaining these lists on you. This can become a burden.&lt;/p&gt;
+
+&lt;h4 id=&#34;smart-lists&#34;&gt;Smart Lists&lt;/h4&gt;
+
+&lt;p&gt;What if we could do something better? What if, rather than having to tell the application which lists to add a record to, it just &lt;em&gt;knew&lt;/em&gt;? What I&amp;rsquo;m thinking of is something akin to the &amp;lsquo;smart mailbox&amp;rsquo; feature your email client may have. You would define a set of rules, such as:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Must be seen in 2016&lt;/li&gt;
+&lt;li&gt;Must be seen in the UK&lt;/li&gt;
+&lt;li&gt;Must be on the &lt;a href=&#34;https://www.bou.org.uk/british-list/&#34;&gt;BOU list&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And it would apply these rules to your records, automatically maintaining your 2016 year list. Want to teak the rules? No problem, edit the parameters and the list will automatically update.&lt;/p&gt;
+
+&lt;p&gt;If we have this feature it means the only thing you have to do is add your records and your lists will take care of themselves. Bliss.&lt;/p&gt;
+
+&lt;h3 id=&#34;photos&#34;&gt;Photos&lt;/h3&gt;
+
+&lt;p&gt;A lot of birders have started getting into photography. Whether that be through some serious SLR telephoto lens or digiscoping (a practice of attaching a camera to your telescope), bird photography is extremely popular.&lt;/p&gt;
+
+&lt;p&gt;Birdr will allow you to upload as many photos of your birds as you like. As they&amp;rsquo;re attached to records we can build up a gallery of photos of every species. And give you a public gallery of your photos for people to comment and like.&lt;/p&gt;
+
+&lt;h3 id=&#34;trip-reports&#34;&gt;Trip Reports&lt;/h3&gt;
+
+&lt;p&gt;Birdr will allow you to group records into a &amp;lsquo;trip&amp;rsquo;. This trip will be a collection of maps, photos, lists and notes. You will be able to share this with your friends, or print it as a PDF. This could form a memoir of your birding holidays. Eventually, Birdr will house a library of trip reports from across the world. Off to Chile? Check out reports from other birders who have been there.&lt;/p&gt;
+
+&lt;h3 id=&#34;clubs&#34;&gt;Clubs&lt;/h3&gt;
+
+&lt;p&gt;There are tonnes of bird clubs in the UK (and worldwide); my dad has started two himself! The concept is fairly simple. You form a club that has a designated recording area and your members report what species they see within this area. At the end of the year the club produces an annual report.&lt;/p&gt;
+
+&lt;p&gt;The problem is there is a lot of work for some poor soul who has been nominated by the club as the record keeper. Each year they must collate the records - not always submitted digitally - and produce a report. Wouldn&amp;rsquo;t it be great if you could automate this?&lt;/p&gt;
+
+&lt;p&gt;Birdr will allow people to form clubs. You will be able to draw on a map to define your recording area. You will be able to invite and manage your users, perhaps even &lt;a href=&#34;https://stripe.com/gb&#34;&gt;managing payments&lt;/a&gt;. All records will be available in monthly and yearly reports to all members, meaning your club record keeper is able to go out and enjoy birding!&lt;/p&gt;
+
+&lt;h3 id=&#34;gamification&#34;&gt;Gamification&lt;/h3&gt;
+
+&lt;p&gt;Personally, I find bird watching a difficult hobby to get into. Unless you know someone who is a keen birder it can be extremely daunting. A concept in modern applications is gamification. To gamify something is to attach virtual rewards and targets to a hobby or process. For example, the popular software development Q&amp;amp;A site, &lt;a href=&#34;http://stackoverflow.com/&#34;&gt;StackOverflow&lt;/a&gt;, has a great system whereby you earn badges for answering questions and helping to maintain the site.&lt;/p&gt;
+
+&lt;p&gt;Birdr will try and introduce the concept of gamification to bird watching. You will be able to earn badges for recording species, and there will be fun achievements for meeting certain criteria. For example, earning a &amp;lsquo;flying kites&amp;rsquo; badge for reporting a Kite during high winds.&lt;/p&gt;
+
+&lt;p&gt;The hope is this will help on board new birders by suggesting badges they can aim for. These badges will get progressively harder and by the time they&amp;rsquo;ve earned the last one they&amp;rsquo;ll be professionals!&lt;/p&gt;
+
+&lt;h3 id=&#34;rare-bird-alerts&#34;&gt;Rare bird alerts&lt;/h3&gt;
+
+&lt;p&gt;One of the nice things about having a community of birders adding records into a central system is that it becomes trivial to providing rare bird alerts becomes trivial. Rare bird alerts is something that many keen birders pay good money for. Birdr will provide notification of rare species over push notification and text message - straight to your phone. This is something I have already implemented successfully on the &lt;a href=&#34;http://nenbc.co.uk/&#34;&gt;NENBC&lt;/a&gt; website. These notifications should be configurable at the club and individual level. Don&amp;rsquo;t care about specific species? Turn off the notifications.&lt;/p&gt;
+
+&lt;h4 id=&#34;reputation&#34;&gt;Reputation&lt;/h4&gt;
+
+&lt;p&gt;One of the tricky aspects of a rare bird alert system is that sometimes newer birders can misidentify species. To send out a notification of a rare bird erroneously could be disastrous as many birders travel long distances to see them. To combat this I&amp;rsquo;ve thought about a reputation system. Newer birders will have a low reputation and so rare birds wont be notified immediately. Over time they will earn reputation points so that when they do report a mega rarity we can trust it and let people know.&lt;/p&gt;
+
+&lt;h3 id=&#34;more-advanced-features&#34;&gt;More advanced features&lt;/h3&gt;
+
+&lt;h4 id=&#34;image-recognition&#34;&gt;Image Recognition&lt;/h4&gt;
+
+&lt;p&gt;Recently, Amazon Web Services &lt;a href=&#34;https://aws.amazon.com/blogs/aws/amazon-rekognition-image-detection-and-recognition-powered-by-deep-learning/&#34;&gt;announced a new service for image recognition&lt;/a&gt;. This got me thinking, would it be possible to use such a service to try and identify species of birds in photos? It&amp;rsquo;s a long shot, as most bird photos tend to be of small brown or black objects in the sky. Nonetheless, it is an interesting concept and one I hope to pursue.&lt;/p&gt;
+
+&lt;p&gt;Perhaps in the future you will be able to add records simply by uploading photos. The photo would contain date &amp;amp; time, location and we can use image recognition to identify the species. That would mean updating your bird lists simply becomes a case of plugging in your camera and clicking a button.&lt;/p&gt;
+
+&lt;h4 id=&#34;machine-learning&#34;&gt;Machine Learning&lt;/h4&gt;
+
+&lt;p&gt;Machine Learning (ML) is another interesting concept. There are several areas where I feel ML could be utilised in Birdr. We could use it to predict which species might be seen at a given location on a given day. This could form a sort of &amp;ldquo;what should I expect to see?&amp;rdquo; feature. It could also be used to identify dubious records. This could provide a safety net for new birders who are about to report an unlikely sighting.&lt;/p&gt;
+
+&lt;p&gt;Machine learning is a very hot topic in software development right now and something I will be aiming to use extensively in Birdr.&lt;/p&gt;
+
+&lt;h3 id=&#34;any-other-ideas&#34;&gt;Any other ideas?&lt;/h3&gt;
+
+&lt;p&gt;These are some of the things I&amp;rsquo;ve been thinking about over the years but I would love to hear from you. If you have any ideas please leave a comment below.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>index</title>
@@ -25,6 +119,8 @@
       
       <guid>http://blog.birdr.co.uk/post/welcome-to-birdr/</guid>
       <description>
+
+&lt;p&gt;&lt;img src=&#34;http://blog.birdr.co.uk/images/post/welcome-to-birdr.jpg&#34; alt=&#34;A mug outside on a tree that reads &amp;quot;The adventure begins&amp;quot;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ve been curious about bird watching my whole life. Both my parents are keen twitchers and I was often taken on thinly-veiled &amp;lsquo;holidays&amp;rsquo; to cold &amp;amp; windy places all in the pursuit of finding some obscure little brown bird. As I&amp;rsquo;ve grown older I&amp;rsquo;ve found myself becoming fascinated with trying to build software to improve a bird watchers life, which I&amp;rsquo;ve come to refer to as &lt;em&gt;birdtech&lt;/em&gt;.&lt;/p&gt;
 
