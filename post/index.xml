@@ -6,8 +6,56 @@
     <description>Recent content in Post-rsses on Birdr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 17 Dec 2016 14:17:56 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Dec 2016 16:51:47 +0000</lastBuildDate>
     <atom:link href="http://blog.birdr.co.uk/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Tools of the trade</title>
+      <link>http://blog.birdr.co.uk/post/tools-of-the-trade/</link>
+      <pubDate>Thu, 22 Dec 2016 16:51:47 +0000</pubDate>
+      
+      <guid>http://blog.birdr.co.uk/post/tools-of-the-trade/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;http://blog.birdr.co.uk/images/post/tools-of-the-trade.jpg&#34; alt=&#34;A set of old wood working tools... totally unsuitable for web development&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When I initially built Birdr in 2011, I built it using &lt;a href=&#34;http://rubyonrails.org/&#34;&gt;Ruby on Rails&lt;/a&gt;. These were new technologies to me at the time and required a substantial amount of learning. Birdr is a great project for learning new technologies. It is complex enough to require me to have a firm grasp of a language, yet remains simple enough to allow me to produce &lt;em&gt;something&lt;/em&gt; relatively quickly.&lt;/p&gt;
+
+&lt;p&gt;To this day, Ruby remains my favourite programming language. It has a satisfying syntax and malleable design, which lets you create code that reads almost like prose. I haven&amp;rsquo;t had the opportunity to use it in my day job yet, but it is my go-to tool for personal projects. If you are interested in programming and haven&amp;rsquo;t tried Ruby yet, I would &lt;a href=&#34;https://pragprog.com/book/rails5/agile-web-development-with-rails-5&#34;&gt;strongly encourage you to do so&lt;/a&gt;&amp;hellip; you won&amp;rsquo;t regret it.&lt;/p&gt;
+
+&lt;p&gt;Rails is a framework built on Ruby that allows a developer to get up and running extremely quickly. It became famous for it&amp;rsquo;s &amp;ldquo;How to build a blog in 15 minutes&amp;rdquo; tutorial. However, the best thing about Rails, in my opinion, is the community. There is a strong focus on testing and &lt;a href=&#34;https://en.wikipedia.org/wiki/Test-driven_development&#34;&gt;TDD&lt;/a&gt; within the Rails community - both good practices and something I strongly believe in. Furthermore, there are packages, or &lt;a href=&#34;https://rubygems.org/&#34;&gt;Gems&lt;/a&gt;, for nearly anything. From &lt;a href=&#34;https://rubygems.org/gems/devise/versions/4.2.0&#34;&gt;user authentication&lt;/a&gt; to &lt;a href=&#34;https://rubygems.org/gems/darksky/versions/1.0.5&#34;&gt;weather reports&lt;/a&gt; - Rails has it all.&lt;/p&gt;
+
+&lt;h3 id=&#34;out-with-the-old-and-in-with-the-new&#34;&gt;Out with the old and in with the new&lt;/h3&gt;
+
+&lt;p&gt;Ruby on Rails is very much the kitchen sink of development. This time around I am looking to adopt a pattern that I used successfully at the BBC - &lt;a href=&#34;http://www.martinfowler.com/articles/microservices.html&#34;&gt;Microservices&lt;/a&gt;. At a high level, the idea behind Microservices is that you split your application into smaller, logical chunks. What used to be a single monolithic application becomes a loosely coupled web of services that form a whole. For an architecture such as this, Rails does not make sense.&lt;/p&gt;
+
+&lt;p&gt;There are a number of problems posed by using Microservices too. Deploying, monitoring and maintaining multiple services rather than 1 can be a heavy burden on a team. These are all things that I will try to solve and document during the development of Birdr. To help me, I have provisionally selected a number of technologies.&lt;/p&gt;
+
+&lt;h4 id=&#34;docker-kubernetes&#34;&gt;Docker &amp;amp; Kubernetes&lt;/h4&gt;
+
+&lt;p&gt;Containers. You can&amp;rsquo;t avoid them nowadays. The rise of &lt;a href=&#34;https://www.docker.com/&#34;&gt;Docker&lt;/a&gt; has been one of the quickest I can remember. I didn&amp;rsquo;t use it at the BBC, partly due to the maturity of the project and partly due to other constraints. However, with tools such as &lt;a href=&#34;http://kubernetes.io/&#34;&gt;Kubernetes&lt;/a&gt; (k8s) emerging, containers have become a far more compelling proposition. I will use Birdr as an opportunity to work with k8s and Docker to host the Microservices that I develop.&lt;/p&gt;
+
+&lt;h4 id=&#34;go&#34;&gt;Go&lt;/h4&gt;
+
+&lt;p&gt;Another popular technology at the moment is &lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt; (or Golang). Developed by Google, it is a compiled, statically typed language. For the non-techies among you, this means it is worlds apart from Ruby - which is an interpreted, dynamically typed language. As it is substantially different to any language I have used recently it will place me firmly outside of my comfort zone.&lt;/p&gt;
+
+&lt;h4 id=&#34;linkerd&#34;&gt;linkerd&lt;/h4&gt;
+
+&lt;p&gt;Building a Microservice architecture introduces a lot more communication. What was once an internal function call becomes a network request. And, as anyone will tell you, networks are inherently unreliable. Requests will fail or slow down seemingly at random, which can cause catastrophic failures when you&amp;rsquo;re operating at scale. There are a number of tools at your disposal to help you build a &lt;em&gt;robust&lt;/em&gt; system such as circuit breakers, retries and bulkheads. At the BBC we built a Node.js library (&lt;a href=&#34;https://github.com/bbc/flashheart&#34;&gt;which has since been open sourced&lt;/a&gt;) to handle this for us. The downside of this approach is that it limits you to using Node.js. To create a Microservice in another language would require you to write a similar library. This is an anti-pattern covered in detail in &lt;a href=&#34;https://www.microservices.com/talks/dont-build-a-distributed-monolith/&#34;&gt;this talk by Ben Christensen&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;An alternative approach I &lt;a href=&#34;https://monzo.com/blog/2016/09/19/building-a-modern-bank-backend/&#34;&gt;discovered being used by Monzo&lt;/a&gt; is to use a service called &lt;a href=&#34;https://linkerd.io/&#34;&gt;linkerd&lt;/a&gt;. Essentially, your services communicate with linkerd, which is running locally and &lt;em&gt;it&lt;/em&gt; handles communication across the network - including retries, circuit breakers and monitoring.&lt;/p&gt;
+
+&lt;p&gt;I hadn’t heard about this before, so I am really excited to try it out and see how it works.&lt;/p&gt;
+
+&lt;h4 id=&#34;prometheus&#34;&gt;Prometheus&lt;/h4&gt;
+
+&lt;p&gt;The final technology I want to call out is &lt;a href=&#34;https://prometheus.io/&#34;&gt;Prometheus&lt;/a&gt;. When you&amp;rsquo;re running 20+ services in production, monitoring is essential. I&amp;rsquo;ve had great success using &lt;a href=&#34;https://github.com/etsy/statsd&#34;&gt;StatsD&lt;/a&gt; and &lt;a href=&#34;https://graphiteapp.org/&#34;&gt;Graphite&lt;/a&gt; before but wanted to take this opportunity to try something different.&lt;/p&gt;
+
+&lt;p&gt;No doubt there will be other technologies I will want or need to use during the next year. One of the benefits of building using Microservices and linkerd is that I am free to choose the language of my choice. I hope I manage to avoid the inevitable lure of returning to my comfort zone with Ruby.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Note: If you&amp;rsquo;re reading this and don&amp;rsquo;t understand a word I&amp;rsquo;ve just said - fear not. I hope to blog about each of these technologies individually at a level that even my dad could understand&amp;hellip; and he&amp;rsquo;s about as technical as a Woodpigeon!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>What&#39;s the big idea?</title>
